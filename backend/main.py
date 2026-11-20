@@ -21,7 +21,7 @@ from scholarbridge_engine.orchestration.service import LangChainOrchestrationSer
 from scholarbridge_engine.workflow.service import ScholarBridgeWorkflowService
 
 app = FastAPI(title='ScholarBridge API', version='2.0.0')
-origins = os.getenv('FRONTEND_ORIGIN', 'http://localhost:5173').split(',')
+origins = os.getenv('FRONTEND_ORIGIN', 'https://scholar-bridge-aicw.vercel.app,http://localhost:5173').split(',')
 app.add_middleware(CORSMiddleware, allow_origins=origins, allow_credentials=True, allow_methods=['*'], allow_headers=['*'])
 
 engine = None
