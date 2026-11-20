@@ -1,0 +1,333 @@
+﻿Rule_ID,Scholarship_ID,Rule_Category,Field,Operator,Value,Unit,Mandatory,Logical_Operator,Condition_Group,Rule_Description,Source_URL
+GJ-STATE-001-R0001,GJ-STATE-001,Income,annual_family_income,<=,600000,INR,Yes,AND,G1,"Family income <= Rs. 6,00,000",https://mysy.guj.nic.in
+GJ-STATE-001-R0002,GJ-STATE-001,Geography,domicile_state,=,Gujarat,-,Yes,AND,G1,Gujarat domicile required,https://mysy.guj.nic.in
+GJ-STATE-001-R0003,GJ-STATE-001,Geography,study_state,=,Gujarat,-,Yes,AND,G1,Studying in Gujarat,https://mysy.guj.nic.in
+GJ-STATE-001-R0004,GJ-STATE-001,Education,education_level,IN,Diploma|Undergraduate|Postgraduate,-,Yes,AND,G1,Diploma or Degree level,https://mysy.guj.nic.in
+GJ-STATE-001-R0005,GJ-STATE-001,Academic,marks_percentile,>=,80.0,Percentile,Conditional,OR,G_ACAD,>= 80th percentile in 10th (Diploma) or 12th (Degree),https://mysy.guj.nic.in
+GJ-STATE-001-R0006,GJ-STATE-001,Academic,marks_percentage,>=,65.0,Percentage,Conditional,OR,G_ACAD,>= 65% in Diploma for D2D Degree,https://mysy.guj.nic.in
+GJ-STATE-002-R0007,GJ-STATE-002,Education,education_level,=,PhD,-,Yes,AND,G1,Must be full-time PhD scholar,https://mysy.guj.nic.in
+GJ-STATE-002-R0008,GJ-STATE-002,Geography,study_state,=,Gujarat,-,Yes,AND,G1,University located in Gujarat,https://mysy.guj.nic.in
+GJ-STATE-003-R0009,GJ-STATE-003,Income,annual_family_income,<=,600000,INR,Yes,AND,G1,Income <= Rs. 600000,https://education.gujarat.gov.in
+GJ-STATE-003-R0010,GJ-STATE-003,Gender,gender,=,Female,-,Yes,AND,G1,Gender = Female,https://education.gujarat.gov.in
+GJ-STATE-003-R0011,GJ-STATE-003,Education,education_level,IN,Class_9|Class_10|Class_11|Class_12,-,Yes,AND,G1,Education level IN Class_9|Class_10|Class_11|Class_12,https://education.gujarat.gov.in
+GJ-STATE-003-R0012,GJ-STATE-003,Geography,domicile_state,=,Gujarat,-,Yes,AND,G1,Gujarat domicile required,https://education.gujarat.gov.in
+GJ-STATE-004-R0013,GJ-STATE-004,Income,annual_family_income,<=,600000,INR,Yes,AND,G1,Income <= Rs. 600000,https://digitalgujarat.gov.in
+GJ-STATE-004-R0014,GJ-STATE-004,Stream,stream,IN,Science,-,Yes,AND,G1,Stream IN Science,https://digitalgujarat.gov.in
+GJ-STATE-004-R0015,GJ-STATE-004,Education,education_level,IN,Class_11|Class_12,-,Yes,AND,G1,Education level IN Class_11|Class_12,https://digitalgujarat.gov.in
+GJ-STATE-004-R0016,GJ-STATE-004,Geography,domicile_state,=,Gujarat,-,Yes,AND,G1,Gujarat domicile required,https://digitalgujarat.gov.in
+GJ-STATE-005-R0017,GJ-STATE-005,Income,annual_family_income,<=,600000,INR,Yes,AND,G1,Income <= Rs. 600000,https://digitalgujarat.gov.in
+GJ-STATE-005-R0018,GJ-STATE-005,Education,education_level,IN,Diploma|Undergraduate,-,Yes,AND,G1,Education level IN Diploma|Undergraduate,https://digitalgujarat.gov.in
+GJ-STATE-005-R0019,GJ-STATE-005,Geography,domicile_state,=,Gujarat,-,Yes,AND,G1,Gujarat domicile required,https://digitalgujarat.gov.in
+GJ-STATE-006-R0020,GJ-STATE-006,Income,annual_family_income,<=,450000,INR,Yes,AND,G1,Income <= Rs. 450000,https://scholarships.gujarat.gov.in
+GJ-STATE-006-R0021,GJ-STATE-006,Stream,stream,IN,Professional,-,Yes,AND,G1,Stream IN Professional,https://scholarships.gujarat.gov.in
+GJ-STATE-006-R0022,GJ-STATE-006,Education,education_level,IN,Undergraduate|Professional,-,Yes,AND,G1,Education level IN Undergraduate|Professional,https://scholarships.gujarat.gov.in
+GJ-STATE-006-R0023,GJ-STATE-006,Geography,domicile_state,=,Gujarat,-,Yes,AND,G1,Gujarat domicile required,https://scholarships.gujarat.gov.in
+GJ-STATE-007-R0024,GJ-STATE-007,Income,annual_family_income,<=,250000,INR,Yes,AND,G1,Income <= Rs. 250000,https://digitalgujarat.gov.in
+GJ-STATE-007-R0025,GJ-STATE-007,Category,social_category,IN,SC,-,Yes,AND,G1,Category IN SC,https://digitalgujarat.gov.in
+GJ-STATE-007-R0026,GJ-STATE-007,Education,education_level,IN,Primary|Upper_Primary|Secondary|Class_9|Class_10,-,Yes,AND,G1,Education level IN Primary|Upper_Primary|Secondary|Class_9|Class_10,https://digitalgujarat.gov.in
+GJ-STATE-007-R0027,GJ-STATE-007,Geography,domicile_state,=,Gujarat,-,Yes,AND,G1,Gujarat domicile required,https://digitalgujarat.gov.in
+GJ-STATE-008-R0028,GJ-STATE-008,Income,annual_family_income,<=,600000,INR,Yes,AND,G1,Income <= Rs. 600000,https://digitalgujarat.gov.in
+GJ-STATE-008-R0029,GJ-STATE-008,Income,annual_family_income,>,250000,INR,Yes,AND,G1,Income > Rs. 250000,https://digitalgujarat.gov.in
+GJ-STATE-008-R0030,GJ-STATE-008,Category,social_category,IN,SC,-,Yes,AND,G1,Category IN SC,https://digitalgujarat.gov.in
+GJ-STATE-008-R0031,GJ-STATE-008,Gender,gender,=,Female,-,Yes,AND,G1,Gender = Female,https://digitalgujarat.gov.in
+GJ-STATE-008-R0032,GJ-STATE-008,Education,education_level,IN,Class_11|Class_12|Diploma|Undergraduate|Postgraduate|PhD,-,Yes,AND,G1,Education level IN Class_11|Class_12|Diploma|Undergraduate|Postgraduate|PhD,https://digitalgujarat.gov.in
+GJ-STATE-008-R0033,GJ-STATE-008,Geography,domicile_state,=,Gujarat,-,Yes,AND,G1,Gujarat domicile required,https://digitalgujarat.gov.in
+GJ-STATE-009-R0034,GJ-STATE-009,Income,annual_family_income,<=,250000,INR,Yes,AND,G1,Income <= Rs. 250000,https://digitalgujarat.gov.in
+GJ-STATE-009-R0035,GJ-STATE-009,Category,social_category,IN,SC,-,Yes,AND,G1,Category IN SC,https://digitalgujarat.gov.in
+GJ-STATE-009-R0036,GJ-STATE-009,Education,education_level,IN,Class_11|Class_12|Diploma|Undergraduate|Postgraduate|PhD,-,Yes,AND,G1,Education level IN Class_11|Class_12|Diploma|Undergraduate|Postgraduate|PhD,https://digitalgujarat.gov.in
+GJ-STATE-009-R0037,GJ-STATE-009,Geography,domicile_state,=,Gujarat,-,Yes,AND,G1,Gujarat domicile required,https://digitalgujarat.gov.in
+GJ-STATE-010-R0038,GJ-STATE-010,Income,annual_family_income,<=,600000,INR,Yes,AND,G1,Income <= Rs. 600000,https://digitalgujarat.gov.in
+GJ-STATE-010-R0039,GJ-STATE-010,Category,social_category,IN,SC,-,Yes,AND,G1,Category IN SC,https://digitalgujarat.gov.in
+GJ-STATE-010-R0040,GJ-STATE-010,Special_Group,hostel_status,=,College_Affiliated_Hostel,-,Yes,AND,G1,Hostel accommodation required,https://digitalgujarat.gov.in
+GJ-STATE-010-R0041,GJ-STATE-010,Stream,stream,IN,Technical|Medical,-,Yes,AND,G1,Stream IN Technical/Medical,https://digitalgujarat.gov.in
+GJ-STATE-010-R0042,GJ-STATE-010,Education,education_level,IN,Diploma|Undergraduate|Postgraduate,-,Yes,AND,G1,Education level IN Diploma|Undergraduate|Postgraduate,https://digitalgujarat.gov.in
+GJ-STATE-010-R0043,GJ-STATE-010,Geography,domicile_state,=,Gujarat,-,Yes,AND,G1,Gujarat domicile required,https://digitalgujarat.gov.in
+GJ-STATE-011-R0044,GJ-STATE-011,Income,annual_family_income,<=,600000,INR,Yes,AND,G1,Income <= Rs. 600000,https://digitalgujarat.gov.in
+GJ-STATE-011-R0045,GJ-STATE-011,Category,social_category,IN,SC,-,Yes,AND,G1,Category IN SC,https://digitalgujarat.gov.in
+GJ-STATE-011-R0046,GJ-STATE-011,Education,education_level,IN,MPhil|PhD,-,Yes,AND,G1,Education level IN MPhil|PhD,https://digitalgujarat.gov.in
+GJ-STATE-011-R0047,GJ-STATE-011,Geography,domicile_state,=,Gujarat,-,Yes,AND,G1,Gujarat domicile required,https://digitalgujarat.gov.in
+GJ-STATE-012-R0048,GJ-STATE-012,Income,annual_family_income,<=,600000,INR,Yes,AND,G1,Income <= Rs. 600000,https://digitalgujarat.gov.in
+GJ-STATE-012-R0049,GJ-STATE-012,Category,social_category,IN,SC,-,Yes,AND,G1,Category IN SC,https://digitalgujarat.gov.in
+GJ-STATE-012-R0050,GJ-STATE-012,Stream,stream,IN,Technical|Medical,-,Yes,AND,G1,Stream IN Technical/Medical,https://digitalgujarat.gov.in
+GJ-STATE-012-R0051,GJ-STATE-012,Education,education_level,IN,Undergraduate,-,Yes,AND,G1,Education level IN Undergraduate,https://digitalgujarat.gov.in
+GJ-STATE-012-R0052,GJ-STATE-012,Geography,domicile_state,=,Gujarat,-,Yes,AND,G1,Gujarat domicile required,https://digitalgujarat.gov.in
+GJ-STATE-013-R0053,GJ-STATE-013,Category,social_category,IN,SEBC|OBC,-,Yes,AND,G1,"Category IN SEBC, OBC",https://digitalgujarat.gov.in
+GJ-STATE-013-R0054,GJ-STATE-013,Gender,gender,=,Female,-,Yes,AND,G1,Gender = Female,https://digitalgujarat.gov.in
+GJ-STATE-013-R0055,GJ-STATE-013,Education,education_level,IN,Class_11|Class_12|Undergraduate|Postgraduate,-,Yes,AND,G1,Education level IN Class_11|Class_12|Undergraduate|Postgraduate,https://digitalgujarat.gov.in
+GJ-STATE-013-R0056,GJ-STATE-013,Geography,domicile_state,=,Gujarat,-,Yes,AND,G1,Gujarat domicile required,https://digitalgujarat.gov.in
+GJ-STATE-014-R0057,GJ-STATE-014,Income,annual_family_income,<=,250000,INR,Yes,AND,G1,Income <= Rs. 250000,https://digitalgujarat.gov.in
+GJ-STATE-014-R0058,GJ-STATE-014,Category,social_category,IN,SEBC|OBC,-,Yes,AND,G1,"Category IN SEBC, OBC",https://digitalgujarat.gov.in
+GJ-STATE-014-R0059,GJ-STATE-014,Special_Group,hostel_status,=,College_Affiliated_Hostel,-,Yes,AND,G1,Hostel accommodation required,https://digitalgujarat.gov.in
+GJ-STATE-014-R0060,GJ-STATE-014,Stream,stream,IN,Medical|Engineering,-,Yes,AND,G1,Stream IN Medical/Engineering,https://digitalgujarat.gov.in
+GJ-STATE-014-R0061,GJ-STATE-014,Education,education_level,IN,Undergraduate|Postgraduate,-,Yes,AND,G1,Education level IN Undergraduate|Postgraduate,https://digitalgujarat.gov.in
+GJ-STATE-014-R0062,GJ-STATE-014,Geography,domicile_state,=,Gujarat,-,Yes,AND,G1,Gujarat domicile required,https://digitalgujarat.gov.in
+GJ-STATE-015-R0063,GJ-STATE-015,Income,annual_family_income,<=,600000,INR,Yes,AND,G1,Income <= Rs. 600000,https://digitalgujarat.gov.in
+GJ-STATE-015-R0064,GJ-STATE-015,Category,social_category,IN,SEBC|OBC,-,Yes,AND,G1,"Category IN SEBC, OBC",https://digitalgujarat.gov.in
+GJ-STATE-015-R0065,GJ-STATE-015,Stream,stream,IN,Technical|Medical,-,Yes,AND,G1,Stream IN Technical/Medical,https://digitalgujarat.gov.in
+GJ-STATE-015-R0066,GJ-STATE-015,Education,education_level,IN,Undergraduate,-,Yes,AND,G1,Education level IN Undergraduate,https://digitalgujarat.gov.in
+GJ-STATE-015-R0067,GJ-STATE-015,Geography,domicile_state,=,Gujarat,-,Yes,AND,G1,Gujarat domicile required,https://digitalgujarat.gov.in
+GJ-STATE-016-R0068,GJ-STATE-016,Income,annual_family_income,<=,250000,INR,Yes,AND,G1,Income <= Rs. 250000,https://digitalgujarat.gov.in
+GJ-STATE-016-R0069,GJ-STATE-016,Category,social_category,IN,SEBC|OBC,-,Yes,AND,G1,"Category IN SEBC, OBC",https://digitalgujarat.gov.in
+GJ-STATE-016-R0070,GJ-STATE-016,Gender,gender,=,Male,-,Yes,AND,G1,Gender = Male,https://digitalgujarat.gov.in
+GJ-STATE-016-R0071,GJ-STATE-016,Education,education_level,IN,Class_11|Class_12|Diploma|Undergraduate|Postgraduate|PhD,-,Yes,AND,G1,Education level IN Class_11|Class_12|Diploma|Undergraduate|Postgraduate|PhD,https://digitalgujarat.gov.in
+GJ-STATE-016-R0072,GJ-STATE-016,Geography,domicile_state,=,Gujarat,-,Yes,AND,G1,Gujarat domicile required,https://digitalgujarat.gov.in
+GJ-STATE-017-R0073,GJ-STATE-017,Income,annual_family_income,<=,250000,INR,Yes,AND,G1,Income <= Rs. 250000,https://digitalgujarat.gov.in
+GJ-STATE-017-R0074,GJ-STATE-017,Category,social_category,IN,SEBC|OBC|EWS,-,Yes,AND,G1,"Category IN SEBC, OBC, EWS",https://digitalgujarat.gov.in
+GJ-STATE-017-R0075,GJ-STATE-017,Stream,stream,IN,Technical|Professional,-,Yes,AND,G1,Stream IN Technical/Professional,https://digitalgujarat.gov.in
+GJ-STATE-017-R0076,GJ-STATE-017,Education,education_level,IN,Diploma|Undergraduate|Professional,-,Yes,AND,G1,Education level IN Diploma|Undergraduate|Professional,https://digitalgujarat.gov.in
+GJ-STATE-017-R0077,GJ-STATE-017,Geography,domicile_state,=,Gujarat,-,Yes,AND,G1,Gujarat domicile required,https://digitalgujarat.gov.in
+GJ-STATE-018-R0078,GJ-STATE-018,Income,annual_family_income,<=,600000,INR,Yes,AND,G1,Income <= Rs. 600000,https://digitalgujarat.gov.in
+GJ-STATE-018-R0079,GJ-STATE-018,Category,social_category,IN,SEBC|OBC,-,Yes,AND,G1,"Category IN SEBC, OBC",https://digitalgujarat.gov.in
+GJ-STATE-018-R0080,GJ-STATE-018,Education,education_level,IN,MPhil|PhD,-,Yes,AND,G1,Education level IN MPhil|PhD,https://digitalgujarat.gov.in
+GJ-STATE-018-R0081,GJ-STATE-018,Geography,domicile_state,=,Gujarat,-,Yes,AND,G1,Gujarat domicile required,https://digitalgujarat.gov.in
+GJ-STATE-019-R0082,GJ-STATE-019,Income,annual_family_income,<=,250000,INR,Yes,AND,G1,Income <= Rs. 250000,https://digitalgujarat.gov.in
+GJ-STATE-019-R0083,GJ-STATE-019,Category,social_category,IN,ST,-,Yes,AND,G1,Category IN ST,https://digitalgujarat.gov.in
+GJ-STATE-019-R0084,GJ-STATE-019,Education,education_level,IN,Class_11|Class_12|Diploma|Undergraduate|Postgraduate|PhD,-,Yes,AND,G1,Education level IN Class_11|Class_12|Diploma|Undergraduate|Postgraduate|PhD,https://digitalgujarat.gov.in
+GJ-STATE-019-R0085,GJ-STATE-019,Geography,domicile_state,=,Gujarat,-,Yes,AND,G1,Gujarat domicile required,https://digitalgujarat.gov.in
+GJ-STATE-020-R0086,GJ-STATE-020,Income,annual_family_income,<=,250000,INR,Yes,AND,G1,Income <= Rs. 250000,https://digitalgujarat.gov.in
+GJ-STATE-020-R0087,GJ-STATE-020,Category,social_category,IN,ST,-,Yes,AND,G1,Category IN ST,https://digitalgujarat.gov.in
+GJ-STATE-020-R0088,GJ-STATE-020,Special_Group,hostel_status,=,College_Affiliated_Hostel,-,Yes,AND,G1,Hostel accommodation required,https://digitalgujarat.gov.in
+GJ-STATE-020-R0089,GJ-STATE-020,Stream,stream,IN,Technical|Medical,-,Yes,AND,G1,Stream IN Technical/Medical,https://digitalgujarat.gov.in
+GJ-STATE-020-R0090,GJ-STATE-020,Education,education_level,IN,Class_11|Class_12|Undergraduate|Postgraduate,-,Yes,AND,G1,Education level IN Class_11|Class_12|Undergraduate|Postgraduate,https://digitalgujarat.gov.in
+GJ-STATE-020-R0091,GJ-STATE-020,Geography,domicile_state,=,Gujarat,-,Yes,AND,G1,Gujarat domicile required,https://digitalgujarat.gov.in
+GJ-STATE-021-R0092,GJ-STATE-021,Income,annual_family_income,<=,150000,INR,Yes,AND,G1,Income <= Rs. 150000,https://digitalgujarat.gov.in
+GJ-STATE-021-R0093,GJ-STATE-021,Category,social_category,IN,ST,-,Yes,AND,G1,Category IN ST,https://digitalgujarat.gov.in
+GJ-STATE-021-R0094,GJ-STATE-021,Stream,stream,IN,Technical|Vocational,-,Yes,AND,G1,Stream IN Technical/Vocational,https://digitalgujarat.gov.in
+GJ-STATE-021-R0095,GJ-STATE-021,Education,education_level,IN,ITI|Diploma,-,Yes,AND,G1,Education level IN ITI|Diploma,https://digitalgujarat.gov.in
+GJ-STATE-021-R0096,GJ-STATE-021,Geography,domicile_state,=,Gujarat,-,Yes,AND,G1,Gujarat domicile required,https://digitalgujarat.gov.in
+GJ-STATE-022-R0097,GJ-STATE-022,Income,annual_family_income,<=,600000,INR,Yes,AND,G1,Income <= Rs. 600000,https://digitalgujarat.gov.in
+GJ-STATE-022-R0098,GJ-STATE-022,Category,social_category,IN,ST,-,Yes,AND,G1,Category IN ST,https://digitalgujarat.gov.in
+GJ-STATE-022-R0099,GJ-STATE-022,Stream,stream,IN,Technical|Medical,-,Yes,AND,G1,Stream IN Technical/Medical,https://digitalgujarat.gov.in
+GJ-STATE-022-R0100,GJ-STATE-022,Education,education_level,IN,Undergraduate,-,Yes,AND,G1,Education level IN Undergraduate,https://digitalgujarat.gov.in
+GJ-STATE-022-R0101,GJ-STATE-022,Geography,domicile_state,=,Gujarat,-,Yes,AND,G1,Gujarat domicile required,https://digitalgujarat.gov.in
+GJ-STATE-023-R0102,GJ-STATE-023,Income,annual_family_income,<=,250000,INR,Yes,AND,G1,Income <= Rs. 250000,https://digitalgujarat.gov.in
+GJ-STATE-023-R0103,GJ-STATE-023,Category,social_category,IN,NTDNT,-,Yes,AND,G1,Category IN NTDNT,https://digitalgujarat.gov.in
+GJ-STATE-023-R0104,GJ-STATE-023,Gender,gender,=,Female,-,Yes,AND,G1,Gender = Female,https://digitalgujarat.gov.in
+GJ-STATE-023-R0105,GJ-STATE-023,Education,education_level,IN,Class_11|Class_12|Diploma|Undergraduate|Postgraduate,-,Yes,AND,G1,Education level IN Class_11|Class_12|Diploma|Undergraduate|Postgraduate,https://digitalgujarat.gov.in
+GJ-STATE-023-R0106,GJ-STATE-023,Geography,domicile_state,=,Gujarat,-,Yes,AND,G1,Gujarat domicile required,https://digitalgujarat.gov.in
+GJ-STATE-024-R0107,GJ-STATE-024,Income,annual_family_income,<=,250000,INR,Yes,AND,G1,Income <= Rs. 250000,https://digitalgujarat.gov.in
+GJ-STATE-024-R0108,GJ-STATE-024,Category,social_category,IN,NTDNT,-,Yes,AND,G1,Category IN NTDNT,https://digitalgujarat.gov.in
+GJ-STATE-024-R0109,GJ-STATE-024,Gender,gender,=,Male,-,Yes,AND,G1,Gender = Male,https://digitalgujarat.gov.in
+GJ-STATE-024-R0110,GJ-STATE-024,Education,education_level,IN,Class_11|Class_12|Diploma|Undergraduate|Postgraduate,-,Yes,AND,G1,Education level IN Class_11|Class_12|Diploma|Undergraduate|Postgraduate,https://digitalgujarat.gov.in
+GJ-STATE-024-R0111,GJ-STATE-024,Geography,domicile_state,=,Gujarat,-,Yes,AND,G1,Gujarat domicile required,https://digitalgujarat.gov.in
+GJ-STATE-025-R0112,GJ-STATE-025,Income,annual_family_income,<=,150000,INR,Yes,AND,G1,Income <= Rs. 150000,https://digitalgujarat.gov.in
+GJ-STATE-025-R0113,GJ-STATE-025,Category,social_category,IN,NTDNT,-,Yes,AND,G1,Category IN NTDNT,https://digitalgujarat.gov.in
+GJ-STATE-025-R0114,GJ-STATE-025,Stream,stream,IN,Technical|Vocational,-,Yes,AND,G1,Stream IN Technical/Vocational,https://digitalgujarat.gov.in
+GJ-STATE-025-R0115,GJ-STATE-025,Education,education_level,IN,ITI|Diploma,-,Yes,AND,G1,Education level IN ITI|Diploma,https://digitalgujarat.gov.in
+GJ-STATE-025-R0116,GJ-STATE-025,Geography,domicile_state,=,Gujarat,-,Yes,AND,G1,Gujarat domicile required,https://digitalgujarat.gov.in
+GJ-STATE-026-R0117,GJ-STATE-026,Income,annual_family_income,<=,450000,INR,Yes,AND,G1,Income <= Rs. 450000,https://gueedc.gujarat.gov.in
+GJ-STATE-026-R0118,GJ-STATE-026,Category,social_category,IN,General|EWS,-,Yes,AND,G1,"Category IN General, EWS",https://gueedc.gujarat.gov.in
+GJ-STATE-026-R0119,GJ-STATE-026,Stream,stream,IN,Science,-,Yes,AND,G1,Stream IN Science,https://gueedc.gujarat.gov.in
+GJ-STATE-026-R0120,GJ-STATE-026,Education,education_level,IN,Class_11|Class_12,-,Yes,AND,G1,Education level IN Class_11|Class_12,https://gueedc.gujarat.gov.in
+GJ-STATE-026-R0121,GJ-STATE-026,Geography,domicile_state,=,Gujarat,-,Yes,AND,G1,Gujarat domicile required,https://gueedc.gujarat.gov.in
+GJ-STATE-027-R0122,GJ-STATE-027,Income,annual_family_income,<=,450000,INR,Yes,AND,G1,Income <= Rs. 450000,https://gueedc.gujarat.gov.in
+GJ-STATE-027-R0123,GJ-STATE-027,Category,social_category,IN,General|EWS,-,Yes,AND,G1,"Category IN General, EWS",https://gueedc.gujarat.gov.in
+GJ-STATE-027-R0124,GJ-STATE-027,Education,education_level,IN,Undergraduate|Postgraduate,-,Yes,AND,G1,Education level IN Undergraduate|Postgraduate,https://gueedc.gujarat.gov.in
+GJ-STATE-027-R0125,GJ-STATE-027,Geography,domicile_state,=,Gujarat,-,Yes,AND,G1,Gujarat domicile required,https://gueedc.gujarat.gov.in
+GJ-STATE-028-R0126,GJ-STATE-028,Income,annual_family_income,<=,1000000,INR,Yes,AND,G1,Income <= Rs. 1000000,https://gueedc.gujarat.gov.in
+GJ-STATE-028-R0127,GJ-STATE-028,Category,social_category,IN,General|EWS,-,Yes,AND,G1,"Category IN General, EWS",https://gueedc.gujarat.gov.in
+GJ-STATE-028-R0128,GJ-STATE-028,Education,education_level,IN,Postgraduate|PhD|Foreign_Study,-,Yes,AND,G1,Education level IN Postgraduate|PhD|Foreign_Study,https://gueedc.gujarat.gov.in
+GJ-STATE-028-R0129,GJ-STATE-028,Geography,domicile_state,=,Gujarat,-,Yes,AND,G1,Gujarat domicile required,https://gueedc.gujarat.gov.in
+GJ-STATE-029-R0130,GJ-STATE-029,Special_Group,parent_occupation,=,Registered Construction Worker,-,Yes,AND,G1,Parent registered construction worker,https://sanman.gujarat.gov.in
+GJ-STATE-029-R0131,GJ-STATE-029,Education,education_level,IN,Primary|Upper_Primary|Secondary|Class_9|Class_10|Class_11|Class_12|Diploma|Undergraduate|Postgraduate|Professional|PhD,-,Yes,AND,G1,Education level IN Primary|Upper_Primary|Secondary|Class_9|Class_10|Class_11|Class_12|Diploma|Undergraduate|Postgraduate|Professional|PhD,https://sanman.gujarat.gov.in
+GJ-STATE-029-R0132,GJ-STATE-029,Geography,domicile_state,=,Gujarat,-,Yes,AND,G1,Gujarat domicile required,https://sanman.gujarat.gov.in
+GJ-STATE-030-R0133,GJ-STATE-030,Education,education_level,IN,Primary|Upper_Primary|Secondary|Class_9|Class_10|Class_11|Class_12|Diploma|Undergraduate|Postgraduate,-,Yes,AND,G1,Education level IN Primary|Upper_Primary|Secondary|Class_9|Class_10|Class_11|Class_12|Diploma|Undergraduate|Postgraduate,https://education.gujarat.gov.in
+GJ-STATE-030-R0134,GJ-STATE-030,Geography,domicile_state,=,Gujarat,-,Yes,AND,G1,Gujarat domicile required,https://education.gujarat.gov.in
+GJ-STATE-031-R0135,GJ-STATE-031,Income,annual_family_income,<=,600000,INR,Yes,AND,G1,Income <= Rs. 600000,https://digitalgujarat.gov.in
+GJ-STATE-031-R0136,GJ-STATE-031,Category,social_category,IN,SC|ST,-,Yes,AND,G1,"Category IN SC, ST",https://digitalgujarat.gov.in
+GJ-STATE-031-R0137,GJ-STATE-031,Education,education_level,IN,Postgraduate|PhD|Foreign_Study,-,Yes,AND,G1,Education level IN Postgraduate|PhD|Foreign_Study,https://digitalgujarat.gov.in
+GJ-STATE-031-R0138,GJ-STATE-031,Geography,domicile_state,=,Gujarat,-,Yes,AND,G1,Gujarat domicile required,https://digitalgujarat.gov.in
+GJ-STATE-032-R0139,GJ-STATE-032,Income,annual_family_income,<=,250000,INR,Yes,AND,G1,Income <= Rs. 250000,https://esamajkalyan.gujarat.gov.in
+GJ-STATE-032-R0140,GJ-STATE-032,Disability,is_pwd,=,Yes,-,Yes,AND,G1,Benchmark disability >= 40%,https://esamajkalyan.gujarat.gov.in
+GJ-STATE-032-R0141,GJ-STATE-032,Education,education_level,IN,Primary|Upper_Primary|Secondary|Class_9|Class_10|Class_11|Class_12|Undergraduate|Postgraduate,-,Yes,AND,G1,Education level IN Primary|Upper_Primary|Secondary|Class_9|Class_10|Class_11|Class_12|Undergraduate|Postgraduate,https://esamajkalyan.gujarat.gov.in
+GJ-STATE-032-R0142,GJ-STATE-032,Geography,domicile_state,=,Gujarat,-,Yes,AND,G1,Gujarat domicile required,https://esamajkalyan.gujarat.gov.in
+GJ-STATE-033-R0143,GJ-STATE-033,Income,annual_family_income,<=,250000,INR,Yes,AND,G1,Income <= Rs. 250000,https://digitalgujarat.gov.in
+GJ-STATE-033-R0144,GJ-STATE-033,Category,social_category,IN,SC|ST|SEBC|OBC|EWS,-,Yes,AND,G1,"Category IN SC, ST, SEBC, OBC, EWS",https://digitalgujarat.gov.in
+GJ-STATE-033-R0145,GJ-STATE-033,Stream,stream,IN,Professional,-,Yes,AND,G1,Stream IN Professional,https://digitalgujarat.gov.in
+GJ-STATE-033-R0146,GJ-STATE-033,Education,education_level,IN,Undergraduate|Postgraduate|Professional,-,Yes,AND,G1,Education level IN Undergraduate|Postgraduate|Professional,https://digitalgujarat.gov.in
+GJ-STATE-033-R0147,GJ-STATE-033,Geography,domicile_state,=,Gujarat,-,Yes,AND,G1,Gujarat domicile required,https://digitalgujarat.gov.in
+GJ-STATE-034-R0148,GJ-STATE-034,Stream,stream,IN,Sports,-,Yes,AND,G1,Stream IN Sports,https://sportsauthority.gujarat.gov.in
+GJ-STATE-034-R0149,GJ-STATE-034,Education,education_level,IN,Other,-,Yes,AND,G1,Education level IN Other,https://sportsauthority.gujarat.gov.in
+GJ-STATE-034-R0150,GJ-STATE-034,Geography,domicile_state,=,Gujarat,-,Yes,AND,G1,Gujarat domicile required,https://sportsauthority.gujarat.gov.in
+NAT-CENT-001-R0151,NAT-CENT-001,Income,annual_family_income,<=,450000,INR,Yes,AND,G1,Income <= Rs. 450000,https://scholarships.gov.in
+NAT-CENT-001-R0152,NAT-CENT-001,Education,education_level,IN,Undergraduate|Postgraduate,-,Yes,AND,G1,Education level IN Undergraduate|Postgraduate,https://scholarships.gov.in
+NAT-CENT-002-R0153,NAT-CENT-002,Income,annual_family_income,<=,250000,INR,Yes,AND,G1,Income <= Rs. 250000,https://scholarships.gov.in
+NAT-CENT-002-R0154,NAT-CENT-002,Category,social_category,IN,OBC|EBC|DNT,-,Yes,AND,G1,"Category IN OBC, EBC, DNT",https://scholarships.gov.in
+NAT-CENT-002-R0155,NAT-CENT-002,Academic,entrance_exam_qualified,=,Yes (YET),-,Yes,AND,G1,Qualified Yes (YET),https://scholarships.gov.in
+NAT-CENT-002-R0156,NAT-CENT-002,Education,education_level,IN,Class_9|Class_10|Class_11|Class_12|Undergraduate|Postgraduate,-,Yes,AND,G1,Education level IN Class_9|Class_10|Class_11|Class_12|Undergraduate|Postgraduate,https://scholarships.gov.in
+NAT-CENT-003-R0157,NAT-CENT-003,Income,annual_family_income,<=,350000,INR,Yes,AND,G1,Income <= Rs. 350000,https://scholarships.gov.in
+NAT-CENT-003-R0158,NAT-CENT-003,Academic,entrance_exam_qualified,=,Yes (NMMS),-,Yes,AND,G1,Qualified Yes (NMMS),https://scholarships.gov.in
+NAT-CENT-003-R0159,NAT-CENT-003,Education,education_level,IN,Class_9|Class_10|Class_11|Class_12,-,Yes,AND,G1,Education level IN Class_9|Class_10|Class_11|Class_12,https://scholarships.gov.in
+NAT-CENT-004-R0160,NAT-CENT-004,Income,annual_family_income,<=,100000,INR,Yes,AND,G1,Income <= Rs. 100000,https://scholarships.gov.in
+NAT-CENT-004-R0161,NAT-CENT-004,Category,social_category,IN,Minority,-,Yes,AND,G1,Category IN Minority,https://scholarships.gov.in
+NAT-CENT-004-R0162,NAT-CENT-004,Education,education_level,IN,Primary|Upper_Primary|Secondary|Class_9|Class_10,-,Yes,AND,G1,Education level IN Primary|Upper_Primary|Secondary|Class_9|Class_10,https://scholarships.gov.in
+NAT-CENT-005-R0163,NAT-CENT-005,Income,annual_family_income,<=,200000,INR,Yes,AND,G1,Income <= Rs. 200000,https://scholarships.gov.in
+NAT-CENT-005-R0164,NAT-CENT-005,Category,social_category,IN,Minority,-,Yes,AND,G1,Category IN Minority,https://scholarships.gov.in
+NAT-CENT-005-R0165,NAT-CENT-005,Education,education_level,IN,Class_11|Class_12|Diploma|Undergraduate|Postgraduate|PhD,-,Yes,AND,G1,Education level IN Class_11|Class_12|Diploma|Undergraduate|Postgraduate|PhD,https://scholarships.gov.in
+NAT-CENT-006-R0166,NAT-CENT-006,Income,annual_family_income,<=,250000,INR,Yes,AND,G1,Income <= Rs. 250000,https://scholarships.gov.in
+NAT-CENT-006-R0167,NAT-CENT-006,Category,social_category,IN,Minority,-,Yes,AND,G1,Category IN Minority,https://scholarships.gov.in
+NAT-CENT-006-R0168,NAT-CENT-006,Stream,stream,IN,Professional,-,Yes,AND,G1,Stream IN Professional,https://scholarships.gov.in
+NAT-CENT-006-R0169,NAT-CENT-006,Education,education_level,IN,Undergraduate|Postgraduate|Professional,-,Yes,AND,G1,Education level IN Undergraduate|Postgraduate|Professional,https://scholarships.gov.in
+NAT-CENT-007-R0170,NAT-CENT-007,Income,annual_family_income,<=,200000,INR,Yes,AND,G1,Income <= Rs. 200000,https://scholarships.gov.in
+NAT-CENT-007-R0171,NAT-CENT-007,Category,social_category,IN,Minority,-,Yes,AND,G1,Category IN Minority,https://scholarships.gov.in
+NAT-CENT-007-R0172,NAT-CENT-007,Gender,gender,=,Female,-,Yes,AND,G1,Gender = Female,https://scholarships.gov.in
+NAT-CENT-007-R0173,NAT-CENT-007,Education,education_level,IN,Class_9|Class_10|Class_11|Class_12,-,Yes,AND,G1,Education level IN Class_9|Class_10|Class_11|Class_12,https://scholarships.gov.in
+NAT-CENT-008-R0174,NAT-CENT-008,Special_Group,is_defence_ward,=,Yes,-,Yes,AND,G1,Ward of Ex-Serviceman / CAPF,https://ksb.gov.in
+NAT-CENT-008-R0175,NAT-CENT-008,Stream,stream,IN,Professional,-,Yes,AND,G1,Stream IN Professional,https://ksb.gov.in
+NAT-CENT-008-R0176,NAT-CENT-008,Education,education_level,IN,Undergraduate|Professional,-,Yes,AND,G1,Education level IN Undergraduate|Professional,https://ksb.gov.in
+NAT-CENT-009-R0177,NAT-CENT-009,Special_Group,is_defence_ward,=,Yes,-,Yes,AND,G1,Ward of Ex-Serviceman / CAPF,https://scholarships.gov.in
+NAT-CENT-009-R0178,NAT-CENT-009,Stream,stream,IN,Professional,-,Yes,AND,G1,Stream IN Professional,https://scholarships.gov.in
+NAT-CENT-009-R0179,NAT-CENT-009,Education,education_level,IN,Undergraduate|Professional,-,Yes,AND,G1,Education level IN Undergraduate|Professional,https://scholarships.gov.in
+NAT-CENT-010-R0180,NAT-CENT-010,Income,annual_family_income,<=,800000,INR,Yes,AND,G1,Income <= Rs. 800000,https://scholarships.gov.in
+NAT-CENT-010-R0181,NAT-CENT-010,Category,social_category,IN,SC,-,Yes,AND,G1,Category IN SC,https://scholarships.gov.in
+NAT-CENT-010-R0182,NAT-CENT-010,Academic,entrance_exam_qualified,=,Yes,-,Yes,AND,G1,Qualified Yes,https://scholarships.gov.in
+NAT-CENT-010-R0183,NAT-CENT-010,Education,education_level,IN,Undergraduate|Postgraduate,-,Yes,AND,G1,Education level IN Undergraduate|Postgraduate,https://scholarships.gov.in
+NAT-CENT-011-R0184,NAT-CENT-011,Income,annual_family_income,<=,600000,INR,Yes,AND,G1,Income <= Rs. 600000,https://scholarships.gov.in
+NAT-CENT-011-R0185,NAT-CENT-011,Category,social_category,IN,ST,-,Yes,AND,G1,Category IN ST,https://scholarships.gov.in
+NAT-CENT-011-R0186,NAT-CENT-011,Academic,entrance_exam_qualified,=,Yes,-,Yes,AND,G1,Qualified Yes,https://scholarships.gov.in
+NAT-CENT-011-R0187,NAT-CENT-011,Education,education_level,IN,Undergraduate|Postgraduate,-,Yes,AND,G1,Education level IN Undergraduate|Postgraduate,https://scholarships.gov.in
+NAT-CENT-012-R0188,NAT-CENT-012,Income,annual_family_income,<=,800000,INR,Yes,AND,G1,Income <= Rs. 800000,https://scholarships.gov.in
+NAT-CENT-012-R0189,NAT-CENT-012,Gender,gender,=,Female,-,Yes,AND,G1,Gender = Female,https://scholarships.gov.in
+NAT-CENT-012-R0190,NAT-CENT-012,Stream,stream,IN,Technical,-,Yes,AND,G1,Stream IN Technical,https://scholarships.gov.in
+NAT-CENT-012-R0191,NAT-CENT-012,Education,education_level,IN,Diploma|Undergraduate,-,Yes,AND,G1,Education level IN Diploma|Undergraduate,https://scholarships.gov.in
+NAT-CENT-013-R0192,NAT-CENT-013,Income,annual_family_income,<=,800000,INR,Yes,AND,G1,Income <= Rs. 800000,https://scholarships.gov.in
+NAT-CENT-013-R0193,NAT-CENT-013,Disability,is_pwd,=,Yes,-,Yes,AND,G1,Disability >= 40%,https://scholarships.gov.in
+NAT-CENT-013-R0194,NAT-CENT-013,Stream,stream,IN,Technical,-,Yes,AND,G1,Stream IN Technical,https://scholarships.gov.in
+NAT-CENT-013-R0195,NAT-CENT-013,Education,education_level,IN,Diploma|Undergraduate,-,Yes,AND,G1,Education level IN Diploma|Undergraduate,https://scholarships.gov.in
+NAT-CENT-013-R0196,NAT-CENT-013,Disability,is_pwd,=,Yes,-,Yes,AND,G1,Disability >= 40% (AICTE Saksham),https://scholarships.gov.in
+NAT-CENT-014-R0197,NAT-CENT-014,Income,annual_family_income,<=,800000,INR,Yes,AND,G1,Income <= Rs. 800000,https://scholarships.gov.in
+NAT-CENT-014-R0198,NAT-CENT-014,Special_Group,is_orphan_or_martyr_ward,=,Yes,-,Yes,AND,G1,Orphan / Martyr Ward,https://scholarships.gov.in
+NAT-CENT-014-R0199,NAT-CENT-014,Stream,stream,IN,Technical,-,Yes,AND,G1,Stream IN Technical,https://scholarships.gov.in
+NAT-CENT-014-R0200,NAT-CENT-014,Education,education_level,IN,Diploma|Undergraduate,-,Yes,AND,G1,Education level IN Diploma|Undergraduate,https://scholarships.gov.in
+NAT-CENT-015-R0201,NAT-CENT-015,Academic,entrance_exam_qualified,=,Yes (GATE/GPAT),-,Yes,AND,G1,Qualified Yes (GATE/GPAT),https://aicte-india.org
+NAT-CENT-015-R0202,NAT-CENT-015,Stream,stream,IN,Technical|Pharma,-,Yes,AND,G1,Stream IN Technical/Pharma,https://aicte-india.org
+NAT-CENT-015-R0203,NAT-CENT-015,Education,education_level,IN,Postgraduate,-,Yes,AND,G1,Education level IN Postgraduate,https://aicte-india.org
+NAT-CENT-016-R0204,NAT-CENT-016,Education,education_level,IN,Primary|Upper_Primary|Secondary|Class_9|Class_10,-,Yes,AND,G1,Education level IN Primary|Upper_Primary|Secondary|Class_9|Class_10,https://scholarships.gov.in
+NAT-CENT-017-R0205,NAT-CENT-017,Stream,stream,IN,Science,-,Yes,AND,G1,Stream IN Science,https://online-inspire.gov.in
+NAT-CENT-017-R0206,NAT-CENT-017,Education,education_level,IN,Undergraduate,-,Yes,AND,G1,Education level IN Undergraduate,https://online-inspire.gov.in
+NAT-CENT-018-R0207,NAT-CENT-018,Academic,entrance_exam_qualified,=,Yes (UGC-NET),-,Yes,AND,G1,Qualified Yes (UGC-NET),https://ugcnet.nta.ac.in
+NAT-CENT-018-R0208,NAT-CENT-018,Stream,stream,IN,Humanities|Science|Commerce,-,Yes,AND,G1,Stream IN Humanities/Science/Commerce,https://ugcnet.nta.ac.in
+NAT-CENT-018-R0209,NAT-CENT-018,Education,education_level,IN,PhD,-,Yes,AND,G1,Education level IN PhD,https://ugcnet.nta.ac.in
+NAT-CENT-019-R0210,NAT-CENT-019,Category,social_category,IN,SC,-,Yes,AND,G1,Category IN SC,https://ugc.ac.in
+NAT-CENT-019-R0211,NAT-CENT-019,Academic,entrance_exam_qualified,=,Yes (NET),-,Yes,AND,G1,Qualified Yes (NET),https://ugc.ac.in
+NAT-CENT-019-R0212,NAT-CENT-019,Education,education_level,IN,MPhil|PhD,-,Yes,AND,G1,Education level IN MPhil|PhD,https://ugc.ac.in
+NAT-CENT-020-R0213,NAT-CENT-020,Category,social_category,IN,ST,-,Yes,AND,G1,Category IN ST,https://ugc.ac.in
+NAT-CENT-020-R0214,NAT-CENT-020,Academic,entrance_exam_qualified,=,Yes (NET/SET),-,Yes,AND,G1,Qualified Yes (NET/SET),https://ugc.ac.in
+NAT-CENT-020-R0215,NAT-CENT-020,Education,education_level,IN,MPhil|PhD,-,Yes,AND,G1,Education level IN MPhil|PhD,https://ugc.ac.in
+NAT-CENT-021-R0216,NAT-CENT-021,Category,social_category,IN,SEBC|OBC,-,Yes,AND,G1,"Category IN SEBC, OBC",https://ugc.ac.in
+NAT-CENT-021-R0217,NAT-CENT-021,Academic,entrance_exam_qualified,=,Yes (NET),-,Yes,AND,G1,Qualified Yes (NET),https://ugc.ac.in
+NAT-CENT-021-R0218,NAT-CENT-021,Education,education_level,IN,MPhil|PhD,-,Yes,AND,G1,Education level IN MPhil|PhD,https://ugc.ac.in
+NAT-CENT-022-R0219,NAT-CENT-022,Academic,entrance_exam_qualified,=,Yes (ICAR AIEEA),-,Yes,AND,G1,Qualified Yes (ICAR AIEEA),https://scholarships.gov.in
+NAT-CENT-022-R0220,NAT-CENT-022,Stream,stream,IN,Agriculture,-,Yes,AND,G1,Stream IN Agriculture,https://scholarships.gov.in
+NAT-CENT-022-R0221,NAT-CENT-022,Education,education_level,IN,Undergraduate,-,Yes,AND,G1,Education level IN Undergraduate,https://scholarships.gov.in
+NAT-CENT-023-R0222,NAT-CENT-023,Academic,entrance_exam_qualified,=,Yes (ICAR AIEEA-PG),-,Yes,AND,G1,Qualified Yes (ICAR AIEEA-PG),https://scholarships.gov.in
+NAT-CENT-023-R0223,NAT-CENT-023,Stream,stream,IN,Agriculture,-,Yes,AND,G1,Stream IN Agriculture,https://scholarships.gov.in
+NAT-CENT-023-R0224,NAT-CENT-023,Education,education_level,IN,Postgraduate,-,Yes,AND,G1,Education level IN Postgraduate,https://scholarships.gov.in
+NAT-CENT-024-R0225,NAT-CENT-024,Academic,entrance_exam_qualified,=,Yes (ICMR-JRF),-,Yes,AND,G1,Qualified Yes (ICMR-JRF),https://main.icmr.nic.in
+NAT-CENT-024-R0226,NAT-CENT-024,Stream,stream,IN,Biomedical|Life Science,-,Yes,AND,G1,Stream IN Biomedical/Life Science,https://main.icmr.nic.in
+NAT-CENT-024-R0227,NAT-CENT-024,Education,education_level,IN,PhD,-,Yes,AND,G1,Education level IN PhD,https://main.icmr.nic.in
+NAT-CENT-025-R0228,NAT-CENT-025,Academic,entrance_exam_qualified,=,Yes (CSIR-NET),-,Yes,AND,G1,Qualified Yes (CSIR-NET),https://csirnet.nta.nic.in
+NAT-CENT-025-R0229,NAT-CENT-025,Stream,stream,IN,Science|Engineering,-,Yes,AND,G1,Stream IN Science/Engineering,https://csirnet.nta.nic.in
+NAT-CENT-025-R0230,NAT-CENT-025,Education,education_level,IN,PhD,-,Yes,AND,G1,Education level IN PhD,https://csirnet.nta.nic.in
+NAT-CENT-026-R0231,NAT-CENT-026,Academic,entrance_exam_qualified,=,Yes (DBT-BET),-,Yes,AND,G1,Qualified Yes (DBT-BET),https://rcb.res.in
+NAT-CENT-026-R0232,NAT-CENT-026,Stream,stream,IN,Biotechnology,-,Yes,AND,G1,Stream IN Biotechnology,https://rcb.res.in
+NAT-CENT-026-R0233,NAT-CENT-026,Education,education_level,IN,PhD,-,Yes,AND,G1,Education level IN PhD,https://rcb.res.in
+NAT-CENT-027-R0234,NAT-CENT-027,Stream,stream,IN,Science|Engineering,-,Yes,AND,G1,Stream IN Science/Engineering,https://online-inspire.gov.in
+NAT-CENT-027-R0235,NAT-CENT-027,Education,education_level,IN,PhD,-,Yes,AND,G1,Education level IN PhD,https://online-inspire.gov.in
+NAT-CENT-028-R0236,NAT-CENT-028,Disability,is_pwd,=,Yes,-,Yes,AND,G1,Disability >= 40%,https://ugc.ac.in
+NAT-CENT-028-R0237,NAT-CENT-028,Education,education_level,IN,MPhil|PhD,-,Yes,AND,G1,Education level IN MPhil|PhD,https://ugc.ac.in
+NAT-CENT-029-R0238,NAT-CENT-029,Income,annual_family_income,<=,250000,INR,Yes,AND,G1,Income <= Rs. 250000,https://scholarships.gov.in
+NAT-CENT-029-R0239,NAT-CENT-029,Disability,is_pwd,=,Yes,-,Yes,AND,G1,Disability >= 40%,https://scholarships.gov.in
+NAT-CENT-029-R0240,NAT-CENT-029,Education,education_level,IN,Class_9|Class_10,-,Yes,AND,G1,Education level IN Class_9|Class_10,https://scholarships.gov.in
+NAT-CENT-030-R0241,NAT-CENT-030,Income,annual_family_income,<=,250000,INR,Yes,AND,G1,Income <= Rs. 250000,https://scholarships.gov.in
+NAT-CENT-030-R0242,NAT-CENT-030,Disability,is_pwd,=,Yes,-,Yes,AND,G1,Disability >= 40%,https://scholarships.gov.in
+NAT-CENT-030-R0243,NAT-CENT-030,Education,education_level,IN,Class_11|Class_12|Diploma|Undergraduate|Postgraduate|PhD,-,Yes,AND,G1,Education level IN Class_11|Class_12|Diploma|Undergraduate|Postgraduate|PhD,https://scholarships.gov.in
+NAT-CENT-031-R0244,NAT-CENT-031,Income,annual_family_income,<=,120000,INR,Yes,AND,G1,Income <= Rs. 120000,https://scholarships.gov.in
+NAT-CENT-031-R0245,NAT-CENT-031,Special_Group,parent_occupation,=,Beedi / Mine Worker,-,Yes,AND,G1,Parent Beedi/Mine worker,https://scholarships.gov.in
+NAT-CENT-031-R0246,NAT-CENT-031,Education,education_level,IN,Primary|Upper_Primary|Secondary|Class_9|Class_10|Class_11|Class_12|Undergraduate|Postgraduate,-,Yes,AND,G1,Education level IN Primary|Upper_Primary|Secondary|Class_9|Class_10|Class_11|Class_12|Undergraduate|Postgraduate,https://scholarships.gov.in
+NAT-CENT-032-R0247,NAT-CENT-032,Academic,entrance_exam_qualified,=,Yes (NTSE),-,Yes,AND,G1,Qualified Yes (NTSE),https://ncert.nic.in
+NAT-CENT-032-R0248,NAT-CENT-032,Education,education_level,IN,Class_11|Class_12|Undergraduate|Postgraduate|PhD,-,Yes,AND,G1,Education level IN Class_11|Class_12|Undergraduate|Postgraduate|PhD,https://ncert.nic.in
+NAT-CENT-033-R0249,NAT-CENT-033,Stream,stream,IN,Arts|Culture,-,Yes,AND,G1,Stream IN Arts/Culture,https://ccrtindia.gov.in
+NAT-CENT-033-R0250,NAT-CENT-033,Education,education_level,IN,Class_9|Class_10|Class_11|Class_12|Undergraduate,-,Yes,AND,G1,Education level IN Class_9|Class_10|Class_11|Class_12|Undergraduate,https://ccrtindia.gov.in
+NAT-CENT-034-R0251,NAT-CENT-034,Income,annual_family_income,<=,800000,INR,Yes,AND,G1,Income <= Rs. 800000,https://nosmsje.gov.in
+NAT-CENT-034-R0252,NAT-CENT-034,Category,social_category,IN,SC|ST|DNT|Landless Agricultural Labourers|Traditional Artisans,-,Yes,AND,G1,"Category IN SC, ST, DNT, Landless Agricultural Labourers, Traditional Artisans",https://nosmsje.gov.in
+NAT-CENT-034-R0253,NAT-CENT-034,Education,education_level,IN,Postgraduate|PhD|Foreign_Study,-,Yes,AND,G1,Education level IN Postgraduate|PhD|Foreign_Study,https://nosmsje.gov.in
+NAT-CENT-035-R0254,NAT-CENT-035,Income,annual_family_income,<=,800000,INR,Yes,AND,G1,Income <= Rs. 800000,https://pmvidyalaxmi.in
+NAT-CENT-035-R0255,NAT-CENT-035,Education,education_level,IN,Undergraduate|Postgraduate,-,Yes,AND,G1,Education level IN Undergraduate|Postgraduate,https://pmvidyalaxmi.in
+NAT-CENT-036-R0256,NAT-CENT-036,Academic,entrance_exam_qualified,=,Yes (GATE/CGPA),-,Yes,AND,G1,Qualified Yes (GATE/CGPA),https://pmrf.in
+NAT-CENT-036-R0257,NAT-CENT-036,Stream,stream,IN,STEM | Technology,-,Yes,AND,G1,Stream IN STEM / Technology,https://pmrf.in
+NAT-CENT-036-R0258,NAT-CENT-036,Education,education_level,IN,PhD,-,Yes,AND,G1,Education level IN PhD,https://pmrf.in
+GJ-INST-001-R0259,GJ-INST-001,Institution,study_institution,=,GTU,-,Yes,AND,G1,Must be enrolled at GTU,https://gtu.ac.in
+GJ-INST-001-R0260,GJ-INST-001,Education,education_level,IN,Postgraduate,-,Yes,AND,G1,Education level IN Postgraduate,https://gtu.ac.in
+GJ-INST-002-R0261,GJ-INST-002,Income,annual_family_income,<=,350000,INR,Yes,AND,G1,Income <= Rs. 350000,https://msubaroda.ac.in
+GJ-INST-002-R0262,GJ-INST-002,Institution,study_institution,=,MSU Baroda,-,Yes,AND,G1,Must be enrolled at MSU Baroda,https://msubaroda.ac.in
+GJ-INST-002-R0263,GJ-INST-002,Education,education_level,IN,Undergraduate|Postgraduate,-,Yes,AND,G1,Education level IN Undergraduate|Postgraduate,https://msubaroda.ac.in
+GJ-INST-003-R0264,GJ-INST-003,Income,annual_family_income,<=,450000,INR,Yes,AND,G1,Income <= Rs. 450000,https://iitgn.ac.in
+GJ-INST-003-R0265,GJ-INST-003,Institution,study_institution,=,IIT Gandhinagar,-,Yes,AND,G1,Must be enrolled at IIT Gandhinagar,https://iitgn.ac.in
+GJ-INST-003-R0266,GJ-INST-003,Education,education_level,IN,Undergraduate,-,Yes,AND,G1,Education level IN Undergraduate,https://iitgn.ac.in
+GJ-INST-003-R0267,GJ-INST-003,Academic,entrance_exam_qualified,=,Yes (JEE Advanced),-,Yes,AND,G1,Admitted via Yes (JEE Advanced),https://iitgn.ac.in
+GJ-INST-004-R0268,GJ-INST-004,Income,annual_family_income,<=,1500000,INR,Yes,AND,G1,Income <= Rs. 1500000,https://iima.ac.in
+GJ-INST-004-R0269,GJ-INST-004,Institution,study_institution,=,IIM Ahmedabad,-,Yes,AND,G1,Must be enrolled at IIM Ahmedabad,https://iima.ac.in
+GJ-INST-004-R0270,GJ-INST-004,Education,education_level,IN,Postgraduate,-,Yes,AND,G1,Education level IN Postgraduate,https://iima.ac.in
+GJ-INST-004-R0271,GJ-INST-004,Academic,entrance_exam_qualified,=,Yes (CAT),-,Yes,AND,G1,Admitted via Yes (CAT),https://iima.ac.in
+GJ-INST-005-R0272,GJ-INST-005,Income,annual_family_income,<=,800000,INR,Yes,AND,G1,Income <= Rs. 800000,https://svnit.ac.in
+GJ-INST-005-R0273,GJ-INST-005,Institution,study_institution,=,SVNIT Surat,-,Yes,AND,G1,Must be enrolled at SVNIT Surat,https://svnit.ac.in
+GJ-INST-005-R0274,GJ-INST-005,Education,education_level,IN,Undergraduate,-,Yes,AND,G1,Education level IN Undergraduate,https://svnit.ac.in
+GJ-INST-005-R0275,GJ-INST-005,Academic,entrance_exam_qualified,=,Yes (JEE Main),-,Yes,AND,G1,Admitted via Yes (JEE Main),https://svnit.ac.in
+GJ-INST-006-R0276,GJ-INST-006,Income,annual_family_income,<=,1000000,INR,Yes,AND,G1,Income <= Rs. 1000000,https://pdpu.ac.in
+GJ-INST-006-R0277,GJ-INST-006,Institution,study_institution,=,PDEU,-,Yes,AND,G1,Must be enrolled at PDEU,https://pdpu.ac.in
+GJ-INST-006-R0278,GJ-INST-006,Education,education_level,IN,Undergraduate|Postgraduate,-,Yes,AND,G1,Education level IN Undergraduate|Postgraduate,https://pdpu.ac.in
+GJ-INST-006-R0279,GJ-INST-006,Academic,entrance_exam_qualified,=,Yes (JEE/CAT),-,Yes,AND,G1,Admitted via Yes (JEE/CAT),https://pdpu.ac.in
+GJ-INST-007-R0280,GJ-INST-007,Income,annual_family_income,<=,800000,INR,Yes,AND,G1,Income <= Rs. 800000,https://daiict.ac.in
+GJ-INST-007-R0281,GJ-INST-007,Institution,study_institution,=,DA-IICT,-,Yes,AND,G1,Must be enrolled at DA-IICT,https://daiict.ac.in
+GJ-INST-007-R0282,GJ-INST-007,Education,education_level,IN,Undergraduate,-,Yes,AND,G1,Education level IN Undergraduate,https://daiict.ac.in
+GJ-INST-007-R0283,GJ-INST-007,Academic,entrance_exam_qualified,=,Yes (JEE Main),-,Yes,AND,G1,Admitted via Yes (JEE Main),https://daiict.ac.in
+GJ-INST-008-R0284,GJ-INST-008,Institution,study_institution,=,GNLU,-,Yes,AND,G1,Must be enrolled at GNLU,https://gnlu.ac.in
+GJ-INST-008-R0285,GJ-INST-008,Education,education_level,IN,Undergraduate|Postgraduate,-,Yes,AND,G1,Education level IN Undergraduate|Postgraduate,https://gnlu.ac.in
+GJ-INST-008-R0286,GJ-INST-008,Academic,entrance_exam_qualified,=,Yes (CLAT),-,Yes,AND,G1,Admitted via Yes (CLAT),https://gnlu.ac.in
+GJ-INST-009-R0287,GJ-INST-009,Institution,study_institution,=,State Agricultural Universities,-,Yes,AND,G1,Must be enrolled at State Agricultural Universities,https://aau.in
+GJ-INST-009-R0288,GJ-INST-009,Education,education_level,IN,Undergraduate|Postgraduate|PhD,-,Yes,AND,G1,Education level IN Undergraduate|Postgraduate|PhD,https://aau.in
+GJ-INST-009-R0289,GJ-INST-009,Academic,entrance_exam_qualified,=,Yes (ICAR),-,Yes,AND,G1,Admitted via Yes (ICAR),https://aau.in
+GJ-INST-010-R0290,GJ-INST-010,Institution,study_institution,=,Nirma University,-,Yes,AND,G1,Must be enrolled at Nirma University,https://nirmauni.ac.in
+GJ-INST-010-R0291,GJ-INST-010,Education,education_level,IN,Undergraduate|Postgraduate,-,Yes,AND,G1,Education level IN Undergraduate|Postgraduate,https://nirmauni.ac.in
+GJ-INST-010-R0292,GJ-INST-010,Academic,entrance_exam_qualified,=,Yes (ACPC/JEE/CAT),-,Yes,AND,G1,Admitted via Yes (ACPC/JEE/CAT),https://nirmauni.ac.in
+PVT-001-R0293,PVT-001,Income,annual_family_income,<=,1500000,INR,Yes,AND,G1,Income <= Rs. 1500000,https://scholarships.reliancefoundation.org
+PVT-001-R0294,PVT-001,Education,education_level,IN,Undergraduate,-,Yes,AND,G1,Education level IN Undergraduate,https://scholarships.reliancefoundation.org
+PVT-002-R0295,PVT-002,Education,education_level,IN,Postgraduate,-,Yes,AND,G1,Education level IN Postgraduate,https://scholarships.reliancefoundation.org
+PVT-003-R0296,PVT-003,Income,annual_family_income,<=,400000,INR,Yes,AND,G1,Income <= Rs. 400000,https://buddy4study.com
+PVT-003-R0297,PVT-003,Education,education_level,IN,Class_11|Class_12|Diploma|Undergraduate|Postgraduate,-,Yes,AND,G1,Education level IN Class_11|Class_12|Diploma|Undergraduate|Postgraduate,https://buddy4study.com
+PVT-004-R0298,PVT-004,Income,annual_family_income,<=,800000,INR,Yes,AND,G1,Income <= Rs. 800000,https://buddy4study.com
+PVT-004-R0299,PVT-004,Education,education_level,IN,Primary|Upper_Primary|Secondary|Class_9|Class_10|Class_11|Class_12|Undergraduate|Postgraduate,-,Yes,AND,G1,Education level IN Primary|Upper_Primary|Secondary|Class_9|Class_10|Class_11|Class_12|Undergraduate|Postgraduate,https://buddy4study.com
+PVT-005-R0300,PVT-005,Income,annual_family_income,<=,600000,INR,Yes,AND,G1,Income <= Rs. 600000,https://kotakeducation.org
+PVT-005-R0301,PVT-005,Gender,gender,=,Female,-,Yes,AND,G1,Gender = Female,https://kotakeducation.org
+PVT-005-R0302,PVT-005,Education,education_level,IN,Undergraduate|Professional,-,Yes,AND,G1,Education level IN Undergraduate|Professional,https://kotakeducation.org
+PVT-006-R0303,PVT-006,Income,annual_family_income,<=,250000,INR,Yes,AND,G1,Income <= Rs. 250000,https://adanifoundation.org
+PVT-006-R0304,PVT-006,Geography,domicile_state,=,Gujarat,-,Yes,AND,G1,Gujarat domicile required,https://adanifoundation.org
+PVT-006-R0305,PVT-006,Education,education_level,IN,Undergraduate|Professional,-,Yes,AND,G1,Education level IN Undergraduate|Professional,https://adanifoundation.org
+PVT-007-R0306,PVT-007,Income,annual_family_income,<=,250000,INR,Yes,AND,G1,Income <= Rs. 250000,https://licindia.in
+PVT-007-R0307,PVT-007,Education,education_level,IN,Class_10|Class_11|Class_12|Undergraduate,-,Yes,AND,G1,Education level IN Class_10|Class_11|Class_12|Undergraduate,https://licindia.in
+PVT-008-R0308,PVT-008,Income,annual_family_income,<=,200000,INR,Yes,AND,G1,Income <= Rs. 200000,https://santoorscholarships.com
+PVT-008-R0309,PVT-008,Gender,gender,=,Female,-,Yes,AND,G1,Gender = Female,https://santoorscholarships.com
+PVT-008-R0310,PVT-008,Education,education_level,IN,Undergraduate,-,Yes,AND,G1,Education level IN Undergraduate,https://santoorscholarships.com
+PVT-009-R0311,PVT-009,Income,annual_family_income,<=,450000,INR,Yes,AND,G1,Income <= Rs. 450000,https://ongcscholar.org
+PVT-009-R0312,PVT-009,Category,social_category,IN,SC|ST,-,Yes,AND,G1,"Category IN SC, ST",https://ongcscholar.org
+PVT-009-R0313,PVT-009,Education,education_level,IN,Undergraduate|Postgraduate,-,Yes,AND,G1,Education level IN Undergraduate|Postgraduate,https://ongcscholar.org
+PVT-010-R0314,PVT-010,Category,social_category,IN,SC|ST|PwD,-,Yes,AND,G1,"Category IN SC, ST, PwD",https://ntpc.co.in
+PVT-010-R0315,PVT-010,Education,education_level,IN,Undergraduate,-,Yes,AND,G1,Education level IN Undergraduate,https://ntpc.co.in
+PVT-011-R0316,PVT-011,Income,annual_family_income,<=,100000,INR,Yes,AND,G1,Income <= Rs. 100000,https://iocl.com
+PVT-011-R0317,PVT-011,Education,education_level,IN,Class_11|Class_12|ITI|Diploma|Undergraduate,-,Yes,AND,G1,Education level IN Class_11|Class_12|ITI|Diploma|Undergraduate,https://iocl.com
+PVT-012-R0318,PVT-012,Gender,gender,=,Female,-,Yes,AND,G1,Gender = Female,https://buildyourfuture.withgoogle.com
+PVT-012-R0319,PVT-012,Education,education_level,IN,Undergraduate,-,Yes,AND,G1,Education level IN Undergraduate,https://buildyourfuture.withgoogle.com
+PVT-013-R0320,PVT-013,Gender,gender,=,Female,-,Yes,AND,G1,Gender = Female,https://adobe.com
+PVT-013-R0321,PVT-013,Education,education_level,IN,Undergraduate|Postgraduate,-,Yes,AND,G1,Education level IN Undergraduate|Postgraduate,https://adobe.com
+PVT-014-R0322,PVT-014,Gender,gender,=,Female,-,Yes,AND,G1,Gender = Female,https://amazonfutureengineer.in
+PVT-014-R0323,PVT-014,Education,education_level,IN,Undergraduate,-,Yes,AND,G1,Education level IN Undergraduate,https://amazonfutureengineer.in
+PVT-015-R0324,PVT-015,Income,annual_family_income,<=,400000,INR,Yes,AND,G1,Income <= Rs. 400000,https://sitaramjindalfoundation.org
+PVT-015-R0325,PVT-015,Education,education_level,IN,Class_11|Class_12|ITI|Diploma|Undergraduate|Postgraduate,-,Yes,AND,G1,Education level IN Class_11|Class_12|ITI|Diploma|Undergraduate|Postgraduate,https://sitaramjindalfoundation.org
+PVT-016-R0326,PVT-016,Education,education_level,IN,Postgraduate|PhD|Foreign_Study,-,Yes,AND,G1,Education level IN Postgraduate|PhD|Foreign_Study,https://nfroundation.in
+PVT-017-R0327,PVT-017,Education,education_level,IN,Postgraduate|PhD|Foreign_Study,-,Yes,AND,G1,Education level IN Postgraduate|PhD|Foreign_Study,https://jntataendowment.org
+PVT-018-R0328,PVT-018,Education,education_level,IN,Postgraduate|PhD|Foreign_Study,-,Yes,AND,G1,Education level IN Postgraduate|PhD|Foreign_Study,https://kcmet.org
+PVT-019-R0329,PVT-019,Education,education_level,IN,Undergraduate|Postgraduate,-,Yes,AND,G1,Education level IN Undergraduate|Postgraduate,https://adityabirlascholars.net
+PVT-020-R0330,PVT-020,Income,annual_family_income,<=,300000,INR,Yes,AND,G1,Income <= Rs. 300000,https://bankofbaroda.in
+PVT-020-R0331,PVT-020,Geography,domicile_state,=,Gujarat,-,Yes,AND,G1,Gujarat domicile required,https://bankofbaroda.in
+PVT-020-R0332,PVT-020,Education,education_level,IN,Class_11|Class_12|Undergraduate|Postgraduate,-,Yes,AND,G1,Education level IN Class_11|Class_12|Undergraduate|Postgraduate,https://bankofbaroda.in

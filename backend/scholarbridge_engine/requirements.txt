@@ -1,0 +1,16 @@
+qdrant-client==1.19.0
+rank-bm25==0.2.2
+numpy==2.3.2
+pydantic==2.10.6
+pytest==8.4.1
+httpx==0.28.1
+fastapi==0.116.1
+requests==2.34.2
+
+pymongo==4.10.1
+python-dotenv==1.0.1
+
+pandas==3.0.2
+scikit-learn==1.8.0
+
+sentence-transformers==3.3.1

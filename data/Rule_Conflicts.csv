@@ -1,0 +1,3 @@
+﻿Conflict_ID,Scholarship_ID,Field,Master_Value,Rule_Value,Severity,Resolution
+CONF-001,NAT-CENT-013,Category / Rules,All (PwD),Missing disability rule in v4,P0,Resolved in v5: Category normalized to PwD and explicit is_pwd=Yes rule added
+CONF-002,PVT-007,Eligible_Categories,All (EWS Priority),Category IN All,P1,Resolved in v5: Normalized to All with priority captured in Academic_Criteria

@@ -1,0 +1,3 @@
+﻿Scholarship_ID,Scholarship_Name,Field,Current_Value,Correct_Value,Problem,Evidence,Official_Source,Severity,Confidence,Recommended_Action
+NAT-CENT-013,AICTE Saksham Scholarship for Specially-Abled Students,Eligible_Categories / Rules,All (PwD),PwD with is_pwd=Yes rule,Category was labeled All (PwD) without explicit category rule in rules table,AICTE Saksham Scheme guidelines,aicte-india.org,P0,1.0,Normalize Category to PwD and add explicit disability rule
+PVT-007,LIC Golden Jubilee Scholarship Scheme,Eligible_Categories,All (EWS Priority),All (with EWS priority in criteria),Composite string All (EWS Priority) caused category parser mismatch,LIC Golden Jubilee Scheme document,licindia.in,P1,1.0,Normalize Category to All and record EWS priority in Academic_Criteria

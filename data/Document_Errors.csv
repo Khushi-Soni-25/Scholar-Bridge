@@ -1,0 +1,3 @@
+﻿Doc_Audit_ID,Scholarship_ID,Field,Old_Value,New_Value,Status
+DOC-AUD-001,GJ-STATE-010,Mandatory_Documents,Generic docs,College Hostel Admission & Mess Fee Receipt marked mandatory,VERIFIED
+DOC-AUD-002,GJ-STATE-014,Mandatory_Documents,Generic docs,Medical/Engineering College Hostel Certificate marked mandatory,VERIFIED
