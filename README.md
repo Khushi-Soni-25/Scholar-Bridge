@@ -56,11 +56,11 @@ npm install
 npm run dev
 ```
 
-Vite will normally open the frontend at `http://localhost:5173`.
+Vite will normally open the frontend at `https://scholar-bridge-aicw.vercel.app/`.
 
 Optional `.env` in frontend:
 
-`VITE_API_URL=http://localhost:8000/api`
+`VITE_API_URL=[http://localhost:8000/api](https://scholar-bridge-backend-cllv.onrender.com/)`
 
 ## Main flows
 - Register/login with MongoDB-backed account
